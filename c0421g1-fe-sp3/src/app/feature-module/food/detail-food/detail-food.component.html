@@ -1,0 +1,84 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid" style="margin-top: -900px">
+  <section class="banner_area">
+    <div class="container">
+      <div class="banner_text">
+        <h3>Product Details</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product-details.html">Product Details</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="product_details_area p_100">
+    <div class="container">
+      <div class="row product_d_price">
+        <div class="col-lg-6">
+          <div class="product_img"><img class="img-fluid" [src]=detail.fadImage alt=""></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="product_details_text">
+            <h4>{{detail.fadName}}</h4>
+            <p>{{detail.description}} </p>
+            <h5>Price :<span>{{detail.fadPrice}}</span></h5>
+            <div class="quantity_box">
+              <label for="quantity">Quantity : </label>
+              <input type="text" placeholder="1" id="quantity">
+            </div>
+            <a class="pink_more"(click)="addToCart(detail.fadId)" href="#">thêm vào giỏ hàng</a>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!--================Newsletter Area =================-->
+</div>

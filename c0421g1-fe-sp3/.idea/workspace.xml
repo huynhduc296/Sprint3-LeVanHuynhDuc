@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd7bea77-9a70-4975-a417-edf3eb468f54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/core-module/promotion.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core-module/token-storage-service.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core-module/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/Cart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/Food.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/ProductInCart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/entity/loginRequest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core-module/PaymentService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core-module/auth-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21roNEtXX8HSGxDyuhDr947VNxv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/spring3/sprint3/c0421g1-fe-sp3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\spring3\c0421g1-fe-sp3\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\spring3\c0421g1-fe-sp3\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\spring3\c0421g1-fe-sp3\src\app\core-module" />
+      <recent name="E:\spring3\c0421g1-fe-sp3\src\app\client\clinet" />
+      <recent name="E:\spring3\c0421g1-fe-sp3\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (c0421g1-fe-sp3)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (c0421g1-fe-sp3)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="C:/Program Files/nodejs/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Karma.Tests (c0421g1-fe-sp3)" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (c0421g1-fe-sp3)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd7bea77-9a70-4975-a417-edf3eb468f54" name="Default Changelist" comment="" />
+      <created>1638708524227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638708524227</updated>
+      <workItem from="1638708527060" duration="3824000" />
+      <workItem from="1638755306540" duration="6328000" />
+      <workItem from="1638839767263" duration="4302000" />
+      <workItem from="1638850227577" duration="1325000" />
+      <workItem from="1638889513163" duration="1315000" />
+      <workItem from="1638890877410" duration="1403000" />
+      <workItem from="1638926908728" duration="621000" />
+      <workItem from="1638975490355" duration="5979000" />
+      <workItem from="1639059107194" duration="1227000" />
+      <workItem from="1639358463651" duration="1642000" />
+      <workItem from="1639380064468" duration="2112000" />
+      <workItem from="1639401167885" duration="612000" />
+      <workItem from="1639447982715" duration="1831000" />
+      <workItem from="1639449876999" duration="87000" />
+      <workItem from="1639451034515" duration="1699000" />
+      <workItem from="1639984693264" duration="249000" />
+      <workItem from="1639985444798" duration="2531000" />
+      <workItem from="1640050480239" duration="2979000" />
+      <workItem from="1640068216781" duration="9586000" />
+      <workItem from="1640101007813" duration="5541000" />
+      <workItem from="1640107756019" duration="22000" />
+      <workItem from="1640135935705" duration="9831000" />
+      <workItem from="1640178876983" duration="2014000" />
+      <workItem from="1640222309861" duration="11937000" />
+      <workItem from="1640270586153" duration="870000" />
+      <workItem from="1640273418668" duration="2889000" />
+      <workItem from="1640309044759" duration="5595000" />
+      <workItem from="1640487983096" duration="17002000" />
+      <workItem from="1640529085084" duration="2212000" />
+      <workItem from="1640567382969" duration="13337000" />
+      <workItem from="1640593522908" duration="5027000" />
+      <workItem from="1640611150840" duration="6762000" />
+      <workItem from="1640695149395" duration="8085000" />
+      <workItem from="1640740899733" duration="8088000" />
+      <workItem from="1640782791769" duration="6949000" />
+      <workItem from="1640790574525" duration="4613000" />
+      <workItem from="1640852721609" duration="4535000" />
+      <workItem from="1640866540466" duration="5936000" />
+      <workItem from="1641178021769" duration="4811000" />
+      <workItem from="1641199598194" duration="5587000" />
+      <workItem from="1641258895560" duration="9471000" />
+      <workItem from="1641307753883" duration="5325000" />
+      <workItem from="1641345351547" duration="3179000" />
+      <workItem from="1641348663639" duration="6958000" />
+      <workItem from="1641364147029" duration="10881000" />
+      <workItem from="1641396892024" duration="4731000" />
+      <workItem from="1641432620907" duration="10091000" />
+      <workItem from="1641450495229" duration="481000" />
+      <workItem from="1641451787700" duration="9252000" />
+      <workItem from="1641489006590" duration="1333000" />
+      <workItem from="1641518143764" duration="7361000" />
+      <workItem from="1641537296344" duration="2971000" />
+      <workItem from="1641545264249" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640853457733">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1640853457733" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1641347493486">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1641347493486" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640231817971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640231817971" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641545325675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641545325675" />
+    <state width="1328" height="139" key="GridCell.Tab.0.bottom" timestamp="1641544893418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1641544893418" />
+    <state width="1328" height="139" key="GridCell.Tab.0.center" timestamp="1641544893417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1641544893417" />
+    <state width="1328" height="139" key="GridCell.Tab.0.left" timestamp="1641544893417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1641544893417" />
+    <state width="1328" height="139" key="GridCell.Tab.0.right" timestamp="1641544893417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1641544893417" />
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1638757495454">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="172" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.728@0.0.1366.728" timestamp="1638757495454" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1640853710416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1640853710416" />
+  </component>
+</project>

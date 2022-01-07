@@ -1,0 +1,62 @@
+<section class="banner_area"*ngIf="isLogin==false">
+  <div class="container">
+    <div class="banner_text">
+      <h3>Cart</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--================End Main Header Area =================-->
+<section class="cart_table_area p_100"*ngIf="isLogin==true">
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Sản Phẩm</th>
+          <th scope="col">Tên Sản phẩm</th>
+          <th scope="col">Số lượng</th>
+          <th scope="col">Giá</th>
+          <th scope="col">Tổng tiền</th>
+          <th scope="col">Xóa món</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr *ngFor="let obj of cart;let i = index">
+          <td>
+            <img [src]=obj.img alt="" style="width: 100px;height: auto">
+          </td>
+
+          <td>{{obj.name}}</td>
+          <td>{{obj.count}}</td>
+          <td>{{obj.price +'.000'}}</td>
+          <td>{{obj.total +'.000'}}</td>
+          <td>
+            <button class="btn btn-danger" (click)="removeCart(obj.id)">Xóa</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row cart_total_inner">
+      <div class="col-lg-7"></div>
+      <div class="col-lg-5">
+        <div class="cart_total_text">
+          <div class="cart_head">
+            Tổng giỏ hàng
+          </div>
+          <div class="total">
+            <h4>Tổng Cộng <span>{{totalAll+'.000 VND'}}</span></h4>
+          </div>
+          <button type="button" class="btn btn-primary container" (click)="totalAlls()">thanh toán Paypal</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,43 @@
+<!--<div class="col-md-12"  style="background-image: url(https://afamilycdn.com/2018/photo-12-1516457881184.gif)">-->
+<!--  <div class="card card-container" >-->
+<!--    <img id="profile-img" src="https://canhme.com/wp-content/uploads/2016/01/PayPal-logo.png"/>-->
+<!--    <div class="dialog" style="margin-top: 20px" >-->
+<!--      <h4 STYLE="text-align: center; color: #d85909;font-size: 20px"><b>XÁC NHẬN THANH TOÁN</b> </h4>-->
+<!--      <div class="item row" >-->
+<!--        <div class="table-responsive clearfix myorder-info">-->
+<!--          <table class="table table-mycart">-->
+<!--            <thead style="background-color:  #0f9ed8;">-->
+<!--            <tr style="color: white">-->
+<!--              <th scope="col">STT</th>-->
+<!--              <th style="text-align: left" scope="col">Tên Món Ăn</th>-->
+<!--              <th style="text-align: center" scope="col">Giá</th>-->
+<!--              <th style="text-align: right" scope="col">Số Lượng</th>-->
+
+<!--            </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--            <tr *ngFor="let cart of _carts; let i=index">-->
+<!--              <th style="text-align: center" scope="row">{{i + 1}}</th>-->
+<!--              <td>{{cart.food.foodName | titlecase}}</td>-->
+<!--              <td style="text-align: right">{{cart.food.foodPrice| currency:'VND'}}</td>-->
+<!--              <td style="text-align: right">{{cart.quantity}}</td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <th></th>-->
+<!--              <th >Tổng Tiền Thanh Toán:</th>-->
+<!--              <th style="text-align: right">{{totalMoney | currency: "VND"}}</th>-->
+<!--            </tr>-->
+<!--            </tbody>-->
+<!--          </table>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;      <div class="item row"  >&ndash;&gt;-->
+<!--      &lt;!&ndash;        <div class="col-lg-8">Tổng Tiền: </div>&ndash;&gt;-->
+<!--      &lt;!&ndash;        <div class="col-lg-4"><span style="color: #d85909">{{totalMoney | currency: "VND"}}</span></div>&ndash;&gt;-->
+<!--      &lt;!&ndash;      </div>&ndash;&gt;-->
+<!--      <div class="form-group m-3 text-center">-->
+<!--        <button style="font-size: 15px" class="btn btn-primary btn-block" (click)="confirm(carts)">Xác Nhận</button>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->

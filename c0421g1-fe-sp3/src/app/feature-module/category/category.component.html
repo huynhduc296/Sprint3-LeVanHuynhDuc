@@ -1,0 +1,33 @@
+<div class="container-fruid">
+  <app-header></app-header>
+  <div class="container">
+
+    <table class="table table-bordered" style="margin-top: 15%">
+      <thead>
+      <tr>
+
+
+        <th scope="col">Stt</th>
+        <th>Code Category</th>
+        <th scope="col">Name</th>
+        <th scope="col" colspan="2" style="text-align: center">Action</th>
+        <th><button class="btn btn-info" (click)="create()">Add</button></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let obj of categoryList;let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{obj.categoryCode}}</td>
+        <td>{{obj.categoryName}}</td>
+        <td>
+          <button class="btn btn-warning">Edit</button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="delete(obj.categoryId,obj.categoryName,obj)">Delete</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <app-footer></app-footer>
+</div>

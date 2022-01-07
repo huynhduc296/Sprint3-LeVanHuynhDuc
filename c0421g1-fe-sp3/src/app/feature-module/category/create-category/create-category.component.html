@@ -1,0 +1,16 @@
+
+<div class="container">
+  <form style="margin-top: 5%;width: 250px" [formGroup]="category">
+    <div class="mb-3">
+      <label for="category" class="form-label">Name Category</label>
+      <input type="text" class="form-control" id="category" aria-describedby="emailHelp" formControlName="categoryName">
+    </div>
+    <div class="mb-3">
+      <label for="code" class="form-label">Code Category</label>
+      <input type="text" class="form-control" id="code" aria-describedby="emailHelp" formControlName="categoryCode">
+    </div>
+
+    <button type="submit" class="btn btn-primary" (click)="createCategory()">Add</button>
+  </form>
+</div>
+
